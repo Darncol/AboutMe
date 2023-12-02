@@ -20,5 +20,4 @@ final class UserBioViewController: UIViewController {
         title = "\(user.person.name) \(user.person.surname) Биография"
         bioLabel.text = user.person.bio
     }
-
 }
